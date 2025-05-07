@@ -120,26 +120,6 @@ def block_ip_aws(container):
 
 ---
 
-### **7. GitHub Documentation Format**
-
-Each SOAR playbook should be documented in a dedicated Markdown file:
-
-````markdown
-# Block_Malicious_IP Playbook
-
-## Purpose
-Block a malicious IP using firewall and cloud APIs.
-
-## Trigger
-Triggered by Splunk alert labeled `brute_force` with source IP.
-
-## Logic
-1. Enrich IP using VirusTotal
-2. If high risk, call block script
-3. Log to Splunk index and notify analyst
-
-## Script
-```python
 # Paste actual playbook script here
 ````
 
