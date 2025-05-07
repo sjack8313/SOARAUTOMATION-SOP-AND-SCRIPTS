@@ -1,7 +1,7 @@
 def block_malicious_sender(email):
     """
     Simulates blocking a phishing sender in Microsoft 365 using Graph API.
-    Used in real SOC workflows to prevent repeat phishing attempts.
+    Used in our Security workflows to prevent repeat phishing attempts.
     """
     graph_api_url = "https://graph.microsoft.com/v1.0/security/tiIndicators"  # 🔁 Replace with Graph API endpoint if different
     graph_headers = {
